@@ -1,0 +1,137 @@
+body {
+  background-image: url("assets/Fondo.png");
+  background-size: 100%;
+  font-family: "SohoGothicPro-Regular";
+}
+
+.bold-font {
+  font-family: "SohoGothicPro-Bold";
+}
+
+.red-text {
+  color: #F44336 !important;
+}
+
+.outline {
+  outline-style: solid;
+  outline-color: green;
+  outline-width: 1px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+}
+
+.light-font {
+  font-family: "SohoGothicPro-Light";
+}
+
+.medium-font {
+  font-family: "SohoGothicPro-Medium";
+}
+
+.container {
+    position: relative;
+    text-align: center;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.top-pad-20 {
+   padding-top: 20px;
+}
+
+.top-pad-10 {
+   padding-top: 10px;
+}
+
+.top-pad-5 {
+   padding-top: 5px;
+}
+
+.bottom-center {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.top-left {
+    position: absolute;
+    top: 15px;
+    left: 150px;
+}
+
+.grey-text {
+  color: #9e9e9e !important;
+}
+
+.top-right {
+    position: absolute;
+    top: 15px;
+    right: 150px;
+}
+
+.green-text {
+  color: #9dcb12 !important;
+}
+
+.sq {
+  width: 10.3%;
+  padding: 0 0.75rem;
+  float: left;
+  margin-left: auto;
+  left: auto;
+  right: auto;
+}
+
+.table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn:hover {
+  background-color: #b7eb1a;
+}
+
+.btn {
+  text-decoration: none;
+  color: #fff;
+  background-color: #9dcb12;
+  text-align: center;
+  letter-spacing: .5px;
+  transition: .2s ease-out;
+  cursor: pointer;
+
+  border: none;
+  border-radius: 2px;
+  display: inline-block;
+  height: 45px;
+  line-height: 45px;
+  padding: 0 2rem;
+  text-transform: uppercase;
+  vertical-align: middle;
+  -webkit-tap-highlight-color: transparent;
+}
+
+@font-face {
+  font-family: "SohoGothicPro-Medium";
+  src: url("assets/SohoGothicPro-Medium.otf");
+}
+@font-face {
+  font-family: "SohoGothicPro-Regular";
+  src: url("assets/SohoGothicPro-Regular.otf");
+}
+@font-face {
+  font-family: "SohoGothicPro-Light";
+  src: url("assets/SohoGothicPro-Light.otf");
+}
+@font-face {
+  font-family: "SohoGothicPro-Bold";
+  src: url("assets/SohoGothicPro-Bold.otf");
+}

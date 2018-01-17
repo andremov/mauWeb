@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+    <link href="style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <title>Promigas</title>
+  </head>
+
+  <body>
+
+    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"></iframe>
+
+    <center><br>
+
+      <img src="assets/logo1.png" height="80px"><br><br>
+
+      <div class="container">
+        <img src="assets/blank.png" width="80%" height="400px">
+
+        <div class="center">
+            <iframe id="ytstream" width="560" height="315" src="https://www.youtube.com/embed/AQBh9soLSkI"
+            frameborder="0" allow="autoplay; encrypted-media" allowfullscreen style="visibility: hidden;"></iframe>
+        </div>
+
+        <div class="center">
+
+          <form id="test-form" target="hidden_iframe" class="outline">
+            <a class="red-text light-font">Todos los campos son requeridos.</a>
+            <br><br>
+            <label class="light-font">Nombre:</label><br>
+            <input id="field1" type="text" name="Nombre"><br>
+            <br>
+
+            <label class="light-font">Ciudad:</label><br>
+            <input id="field2" type="text" name="Ciudad"><br>
+            <br>
+
+            <label class="light-font">Nombre de Empresa:</label><br>
+            <input id="field3" type="text" name="Empresa"><br>
+            <br>
+
+            <button class="btn bold-font" type="submit" id="submit-form">Enviar</button>
+          </form>
+        </div>
+      </div><br>
+      <div class="table">
+        <div class="sq">
+          <img class="top-pad-5" src="assets/logo1.png" width="80%">
+        </div>
+        <div class="sq">
+          <img src="assets/logo2.png" width="80%">
+        </div>
+        <div class="sq">
+          <img class="top-pad-20" src="assets/logo3.png" width="80%">
+        </div>
+        <div class="sq">
+          <img class="top-pad-20" src="assets/logo4.png" width="80%">
+        </div>
+        <div class="sq">
+          <img class="top-pad-20" src="assets/logo5.png" width="80%">
+        </div>
+        <div class="sq">
+          <img src="assets/logo6.png" width="80%">
+        </div>
+        <div class="sq">
+          <img class="top-pad-10" src="assets/logo7.png" width="80%">
+        </div>
+        <div class="sq">
+          <img src="assets/logo8.png" width="80%">
+        </div>
+      </div>
+
+    </center>
+
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="form.js"></script>
+    <script src="serialize.js"></script>
+
+  </body>
+
+</html>
